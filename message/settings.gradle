@@ -1,0 +1,18 @@
+rootProject.name = 'message'
+
+includeProject(":alarm", "core/alarm-domain")
+includeProject(":producer", "api/producer")
+includeProject(":consumer", "api/consumer")
+includeProject(":rabbitMQConfig", "common/rabbitMQConfig")
+includeProject(":global_domain", "common/global_domain")
+includeProject(":news", "core/news-domain")
+includeProject(":bookmark", "core/bookmark-domain")
+
+def includeProject(String name, String path){
+    include(name)
+    if(path != null){
+        project(name).projectDir = new File(path)
+    }
+}
+
+

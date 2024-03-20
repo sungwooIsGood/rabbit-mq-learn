@@ -1,0 +1,12 @@
+dependencies {
+    api project(':global_domain')
+    api 'com.google.firebase:firebase-admin:7.3.0'
+}
+
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}

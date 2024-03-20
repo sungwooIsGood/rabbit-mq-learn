@@ -1,0 +1,11 @@
+dependencies {
+    api 'com.querydsl:querydsl-jpa:5.0.0:jakarta'
+}
+
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}

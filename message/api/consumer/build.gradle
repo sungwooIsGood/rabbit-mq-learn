@@ -1,0 +1,13 @@
+dependencies {
+    api project(':rabbitMQConfig')
+    api project(':alarm')
+    api project(':news')
+}
+
+bootJar {
+    enabled = true
+}
+
+jar {
+    enabled = false
+}
