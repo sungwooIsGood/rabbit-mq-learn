@@ -167,6 +167,7 @@ public SimpleMessageListenerContainer messageListenerContainer() {
 - `SimpleMessageListener` 설정을 통해 Consumer 쓰레드 관리
     - Consumer 쓰레드는 기본 1개로, 동시에 처리할 메세지가 많아지면 Queue에서 대기중인 메세지들이 늘어나게 되는 것을 방지.
 
+---
  
 ### 시퀀스 다이어그램
 
