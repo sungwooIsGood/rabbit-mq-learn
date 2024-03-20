@@ -1,8 +1,3 @@
-### 시퀀스 다이어그램
-
-![Untitled (2)](https://github.com/sungwooIsGood/Today-I-Learn/assets/98163632/142a1682-8190-4bd3-bbbd-3d0ccf9d1a7d)
-
----
 
 ## 모듈 별 역할
 
@@ -171,3 +166,8 @@ public SimpleMessageListenerContainer messageListenerContainer() {
 
 - `SimpleMessageListener` 설정을 통해 Consumer 쓰레드 관리
     - Consumer 쓰레드는 기본 1개로, 동시에 처리할 메세지가 많아지면 Queue에서 대기중인 메세지들이 늘어나게 되는 것을 방지.
+
+ 
+### 시퀀스 다이어그램
+
+![Untitled (2)](https://github.com/sungwooIsGood/Today-I-Learn/assets/98163632/142a1682-8190-4bd3-bbbd-3d0ccf9d1a7d)
